@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Iconic Smart Watch</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/icon.png"
+          alt="Bankist logo"
+          class="nav__logo"
+          id="logo"
+          designer="Jonas"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Features</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#">Buy</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          The epitome of
+          <!-- Green highlight effect -->
+          <span class="highlight">style</span>
+          and<br />
+
+          <span class="highlight">functionality</span>
+        </h1>
+        <h4>
+          Crafted with precision and designed to seamlessly integrate into your
+          busy routine.
+        </h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+        <img
+          src="img/hero.jpg"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern smart watch and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <img src="img/health.jpg" alt="Computer" class="features__img" />
+        <div class="features__feature">
+          <h5 class="features__header">Health Monitoring</h5>
+          <p>
+            Prioritize your well-being with advanced health monitoring features.
+            Track your heart rate, sleep patterns, and activity levels
+            effortlessly. Receive real-time insights and personalized
+            suggestions for a healthier lifestyle.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <h5 class="features__header">Stylish Design</h5>
+          <p>
+            Elevate your wrist with a sleek and sophisticated design that
+            complements Ali's refined taste. The Iconic Smart Watch is a fashion
+            statement, seamlessly blending with both formal and casual attire.
+          </p>
+        </div>
+        <img src="img/design.jpg" alt="Plant" class="features__img" />
+
+        <img
+          src="img/connectivity.jpg"
+          alt="Credit card"
+          class="features__img"
+        />
+        <div class="features__feature">
+          <h5 class="features__header">Seamless Connectivity</h5>
+          <p>
+            Stay connected effortlessly with seamless device integration.
+            Receive notifications, calls, and messages directly on your wrist.
+            The Iconic Smart Watch ensures you never miss a beat, even in the
+            midst of a hectic day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h3 class="section__header">Why Choose Iconic Smart Watch?</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            Tailored for Active Lifestyle
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            Unmatched Versatility
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            Empowering Health Insights
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1"></div>
+          <h5 class="operations__header">
+            Embrace an active lifestyle without compromising on style.
+          </h5>
+          <p>
+            The smart watch is water-resistant, making it suitable for daily
+            wear and even workouts. Rain or shine, your smart watch stays with
+            you.
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2"></div>
+          <h5 class="operations__header">
+            Iconic Smart Watch effortlessly transitions from the boardroom to
+            the gym.
+          </h5>
+          <p>
+            Elevate your wrist with a sleek and sophisticated design that
+            complements Ali's refined taste. The Iconic Smart Watch is a fashion
+            statement, seamlessly blending with both formal and casual attire.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3"></div>
+          <h5 class="operations__header">Receive personalized insights</h5>
+          <p>
+            Prioritize your well-being with the Iconic Smart Watch's
+            comprehensive health monitoring features. Receive personalized
+            insights that empower you to make informed decisions about your
+            health, aligning perfectly with Ali's focus on self-care.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to get the Iconic Watch was yesterday. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Order your Iconic Watch Now!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>
